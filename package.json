@@ -1,0 +1,18 @@
+{
+  "name": "webpack_test",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack.config.js --progress --colors",
+    "watch": "node server.js"
+  },
+  "author": "Alejandro Otero Ortiz de Cosca",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "webpack": "^2.6.1",
+    "webpack-bundle-tracker": "^0.2.0"
+  }
+}
